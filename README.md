@@ -6,17 +6,17 @@ A modern, responsive news application that fetches and displays the latest news 
 
 ## Features
 
-- **Latest Headlines:** Fetches and displays the latest news headlines.
-- **Responsive Design:** Optimized for various screen sizes and devices.
-- **Real-time Updates:** Utilizes the News API for real-time news updates.
-- **Error Handling:** User-friendly error messages for a smooth experience.
-- **Caching:** Backend caching to reduce API calls and improve performance.
+- **Latest Headlines**: Fetches and displays the latest news headlines.
+- **Responsive Design**: Optimized for various screen sizes and devices.
+- **Real-time Updates**: Utilizes the News API for real-time news updates.
+- **Error Handling**: User-friendly error messages for a smooth experience.
+- **Caching**: Backend caching to reduce API calls and improve performance.
 
 ## Technologies Used
 
-- **Frontend:** React, Axios, CSS for styling
-- **Backend:** Node.js, Express, Axios, Node-Cache, dotenv
-- **API:** [News API](https://newsapi.org/)
+- **Frontend**: React, Axios, CSS for styling
+- **Backend**: Node.js, Express, Axios, Node-Cache, dotenv
+- **API**: News API
 
 ## Getting Started
 
@@ -29,21 +29,18 @@ Follow these instructions to set up and run the project on your local machine.
 
 ### Setup
 
-1. **Clone the Repository:**
+#### Clone the Repository:
 
-   ```bash
-   git clone https://github.com/your-username/your-repository.git
-   cd your-repository
+ ⁠bash
+git clone https://github.com/NIHAL3403/news-app-assignment.git
+cd news-app-assignment
 Set Up the Frontend:
-
 bash
 Copy code
 cd news-app
 npm install
 touch .env
 Add your News API key to the .env file:
-
-.env
 
 env
 Copy code
@@ -54,15 +51,12 @@ bash
 Copy code
 npm start
 Set Up the Backend:
-
 bash
 Copy code
 cd ../news-api-backend
 npm install
 touch .env
 Add your News API key to the .env file:
-
-.env
 
 env
 Copy code
@@ -75,13 +69,14 @@ Copy code
 node index.js
 Usage
 Open your browser and navigate to http://localhost:3000 to view the latest news headlines.
+
 Project Structure
 The project is organized into two main parts:
 
 Frontend: Located in the news-app directory
 Backend: Located in the news-api-backend directory
 Frontend Directory Structure
-java
+plaintext
 Copy code
 news-app/
 ├── public/
@@ -95,7 +90,7 @@ news-app/
 ├── package.json
 └── ...
 Backend Directory Structure
-bash
+plaintext
 Copy code
 news-api-backend/
 ├── index.js
@@ -108,7 +103,6 @@ Express: For setting up the backend server
 Node-Cache: For caching API responses
 dotenv: For managing environment variables
 Screenshots
-Home Page
 
 Contributing
 Feel free to submit issues or pull requests. We welcome contributions from the community!
@@ -118,6 +112,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Contact
 If you have any questions or need further assistance, please contact:
-My Name - POORNA CHANDRA TEJASHWI B H
-Email - nihalhanumanthaiah@gmail.com
-Project Link - https://github.com/NIHAL3403/your-repository
+
+My Name: Poorna Chandra Tejashwi B H
+Email: nihalhanumanthaiah@gmail.com
+Project Link: https://github.com/NIHAL3403/news-app-assignment
