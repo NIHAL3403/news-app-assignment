@@ -1,7 +1,5 @@
 # News App
 
-![News App](https://source.unsplash.com/1600x900/?news)
-
 A modern, responsive news application that fetches and displays the latest news headlines using the News API. This app is built with React for the frontend and Node.js with Express for the backend.
 
 ## Features
@@ -29,55 +27,69 @@ Follow these instructions to set up and run the project on your local machine.
 
 ### Setup
 
-#### Clone the Repository:
+#### Clone the Repository
 
  ⁠bash
 git clone https://github.com/NIHAL3403/news-app-assignment.git
 cd news-app-assignment
-Set Up the Frontend:
-bash
-Copy code
+```
+````
+
+#### Set Up the Frontend
+
+⁠ bash
 cd news-app
 npm install
 touch .env
-Add your News API key to the .env file:
+ ⁠
 
-env
-Copy code
+Add your News API key to the ⁠ .env ⁠ file:
+
+
 REACT_APP_NEWS_API_KEY=your_news_api_key_here
+
+
 Start the frontend:
 
-bash
-Copy code
+⁠ bash
 npm start
-Set Up the Backend:
-bash
-Copy code
+ ⁠
+
+#### Set Up the Backend
+
+⁠ bash
 cd ../news-api-backend
 npm install
 touch .env
-Add your News API key to the .env file:
+ ⁠
 
-env
-Copy code
+Add your News API key to the ⁠ .env ⁠ file:
+
+
 NEWS_API_KEY=your_news_api_key_here
 PORT=5000
+
+
 Start the backend:
 
-bash
-Copy code
+⁠ bash
 node index.js
-Usage
-Open your browser and navigate to http://localhost:3000 to view the latest news headlines.
+ ⁠
 
-Project Structure
+### Usage
+
+Open your browser and navigate to ⁠ http://localhost:3000 ⁠ to view the latest news headlines.
+
+## Project Structure
+
 The project is organized into two main parts:
 
-Frontend: Located in the news-app directory
-Backend: Located in the news-api-backend directory
-Frontend Directory Structure
-plaintext
-Copy code
+•⁠  ⁠*Frontend*: Located in the ⁠ news-app ⁠ directory
+•⁠  ⁠*Backend*: Located in the ⁠ news-api-backend ⁠ directory
+
+### Frontend Directory Structure
+
+
 news-app/
 ├── public/
 ├── src/
@@ -89,30 +101,37 @@ news-app/
 ├── .env
 ├── package.json
 └── ...
-Backend Directory Structure
-plaintext
-Copy code
+
+
+### Backend Directory Structure
+
+
 news-api-backend/
 ├── index.js
 ├── .env
 ├── package.json
 └── ...
-Additional Libraries or Dependencies
-Axios: For making HTTP requests
-Express: For setting up the backend server
-Node-Cache: For caching API responses
-dotenv: For managing environment variables
-Screenshots
 
-Contributing
+
+## Additional Libraries or Dependencies
+
+•⁠  ⁠*Axios*: For making HTTP requests
+•⁠  ⁠*Express*: For setting up the backend server
+•⁠  ⁠*Node-Cache*: For caching API responses
+•⁠  ⁠*dotenv*: For managing environment variables
+
+## Contributing
+
 Feel free to submit issues or pull requests. We welcome contributions from the community!
 
-License
+## License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Contact
+## Contact
+
 If you have any questions or need further assistance, please contact:
 
-My Name: Poorna Chandra Tejashwi B H
-Email: nihalhanumanthaiah@gmail.com
-Project Link: https://github.com/NIHAL3403/news-app-assignment
+•⁠  ⁠*Poorna Chandra Tejashwi B H*
+•⁠  ⁠*Email*: [nihalhanumanthaiah@gmail.com](mailto:nihalhanumanthaiah@gmail.com)
+•⁠  ⁠*Project Link*: [https://github.com/NIHAL3403/news-app-assignment](https://github.com/NIHAL3403/news-app-assignment)
