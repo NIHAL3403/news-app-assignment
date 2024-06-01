@@ -1,4 +1,4 @@
-````markdown
+
 # News App
 
 ![News App](https://source.unsplash.com/1600x900/?news)
@@ -36,7 +36,7 @@ Follow these instructions to set up and run the project on your local machine.
 git clone https://github.com/NIHAL3403/news-app-assignment.git
 cd news-app-assignment
 ```
-````
+
 
 #### Set Up the Frontend
 
